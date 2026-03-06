@@ -36,9 +36,9 @@ The `total_job_cores_waiting` passed to the model is clamped to never exceed the
 
 **Input Structure:** The model expects strictly two inputs:
 
-**Infrastructure State:** A flattened vector of fixed length (801 floats) representing the recursive tree of the Datacenter.
+   - **Infrastructure State:** A flattened vector of fixed length (801 floats) representing the recursive tree of the Datacenter.
 
-**Job Demand:** A single scalar value representing the total waiting job cores.
+   - **Job Demand:** A single scalar value representing the total waiting job cores.
 
 ## 🛠️ Installation
 
@@ -46,8 +46,8 @@ It is recommended to use a virtual environment to keep dependencies isolated.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/tgasla/MLSysOps-VM-Management-Agent.git
-cd MLSysOps-VM-Management-Agent
+git clone https://github.com/mlsysops-eu/model-cluster-vm-management.git
+cd model-cluster-vm-management
 ```
 
 ### 2. Create and Activate Virtual Environment
